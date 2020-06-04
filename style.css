@@ -1,0 +1,35 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+}
+
+h3, p{
+    text-align: center;
+}
+
+.item-bar {
+    width: 70vw;
+    border: none;
+    line-height: 2rem;
+    text-align: left;
+    max-width: 542px;
+}
+
+.item-bar:hover {
+    background-color: #aaa;
+}
+
+.content {
+    width: 70vw;
+    max-width: 542px;
+}
+
+.hide {
+    display: none;
+}
+
